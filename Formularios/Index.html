@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <main>
+        <form>
+          
+            <label for="nombre"> 
+                <span>Cual es tu nombre?</span>
+                <input autocomplete="off" type="text" name="nombre" id="nombre" required>
+            </label>
+            <label for="correo">
+                <span>Tu correo</span>
+                <input type="email" name="correo" id="correo">
+            </label>
+            <label for="calendario">
+                <input type="datetime-local" id="calendario" >
+            </label>
+            <select>
+                <option value="Futbol"> Futbol 1</option>
+                <option value="Basket"> Basket 1</option>
+                <option value="Nado"> Nado</option>
+            </select>
+            <input list="cursos">
+            <datalist id="cursos">
+                <option value="Futbo"> Futbol</option>
+                <option value="Basket"> Basket</option>
+                <option value="Nado"> Nado</option>
+            </datalist>
+            <Input type="submit"></Input>
+        </form>
+    </main>
+</body>
+
+<Footer>
+    <style>
+        footer{
+            background-color: green;
+        }
+    </style>
+</Footer>
+</html>

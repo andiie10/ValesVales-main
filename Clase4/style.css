@@ -1,0 +1,29 @@
+h1 {
+    font-family: 'Courier New', Courier, monospace;
+}
+
+#pagetitle{
+    font-family: monospace;
+}
+
+.title{
+    font-size: 18px;
+    font-family: fantasy;
+}
+
+.parrafo{
+    font-family: fantasy;
+}
+
+.nav{
+    margin-top: 18px;
+    list-style-type: none;
+    padding: 10px solid black;
+    margin: 10px;
+    border: 20px solid black;
+    box-sizing: border-box;
+
+}
+.nav li {
+    display: inline-block;
+}

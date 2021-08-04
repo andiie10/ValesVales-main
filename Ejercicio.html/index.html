@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Ejercicios html </title>
+</head>
+<body>
+    <main>
+        <head> <h2>Esto es una lista</h2> </head>
+        <ol>
+            <li>Levantarse 9:00</li>
+            <li>Ducha</li>
+            <li>Desayunar</li>
+            <li>Empezar jornada</li>
+            <li>Almorzar</li>
+            <li>Terminar tareas</li>
+            <li>Practicar html </li>
+            <li>Cenar</li>
+            <li>Dormir</li>
+        </ol>
+
+        <table border="1"> 
+            <tr>
+                <th>Fecha</th>
+                <th>Metodo de pago</th>
+                <th>Tipo</th>
+                <th>Cantidad</th>
+            </tr>
+            <tr>
+                <td>31.7</td>
+                <td>Debito</td>
+                <td>Entretenimiento</td>
+                <td>$20.000</td>
+            </tr>
+
+            <tr>
+                <td>29.7</td>
+                <td>Debito</td>
+                <td>Comida</td>
+                <td>$5</td>
+            </tr>
+
+            <tr>
+                <td>21.7</td>
+                <td>Debito</td>
+                <td>Impuestos</td>
+                <td>$400</td>
+            </tr>
+
+             
+    
+        </table>
+
+        <figure>
+            <head><h3>Esto es un perrito para descontracturar</h3></head>
+            <img src="./sombreros.jpeg" alt="perrito con sombrero" width="500px">
+
+        </figure>
+
+        <head><h3>esto es el video del perrito</h3></head>
+            
+        <div>
+         <video src="./perrites.mp4" width="500" controls></video>
+         <figcaption>Jajajajaj</figcaption>
+
+        </div>
+
+        <div>
+            <audio src="./Perrites.mp3" alt="perrites" controls></audio>
+
+        </div>
+
+        <div>
+            <head><h4>Subscribete a nuestro newsletter para tener mas noticias sobre perritos</h4></head>
+            <form>
+                <label for="Nombre"></label>
+                <span>Tu nombre</span>
+                <input type="text" name="nombre" id="nombre" required>
+
+                <label for="apellido"></label>
+                <span>Tu apellido</span>
+                <input type="text" name="apellido" id="apellido" required>
+
+                <label for="email"></label>
+                <span>Tu Email</span>
+                <input type="text"  name="email" id="email" required>
+
+                <label for="calendario"></label>
+                <span>Tu fecha de nacimiento</span>
+                <input type="datetime-local" id="calendario" required>
+
+                <label for="Tu deporte preferido">Tu deporte preferido</label>
+                <select name="deporte" id="deporte">
+                    <span>Tu deporte preferido</span>
+                    <option value="Futbol">Futbol</option>
+                    <option value="Basket">Basket</option>
+                    <option value="WaterPolo">WaterPolo</option>
+                </select>
+
+                <label for="La historia de tu vida"> Cuentanos la historia de tu vida</label>
+                <textarea name="Bio" id="Bio" cols="30" rows="10"></textarea>
+
+                <input type="submit" value="enviar datos">
+
+
+
+            </form>
+        </div>
+    </main>
+
+</body>
+</html>
