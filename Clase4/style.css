@@ -1,18 +1,9 @@
 h1 {
-    font-family: 'Courier New', Courier, monospace;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 #pagetitle{
     font-family: monospace;
-}
-
-.title{
-    font-size: 18px;
-    font-family: fantasy;
-}
-
-.parrafo{
-    font-family: fantasy;
 }
 
 .nav{
